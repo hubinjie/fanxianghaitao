@@ -1,0 +1,40 @@
+.box1 {
+  margin-bottom: 80px;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #323d54;
+}
+.box1:last-child {
+  margin-bottom: 0;
+}
+.case-img {
+  width: 50%;
+  object-fit: cover;
+}
+.box2 {
+  width: 50%;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #171f30;
+}
+.box3 {
+  width: max-content;
+  padding: 9px 20px;
+  border-radius: 6px;
+  background-color: #454c59;
+}
+.normal-btn {
+  padding: 14px 80px;
+}
+@media (max-width: 768px) {
+  .box1 {
+    margin-bottom: 30px;
+  }
+  .case-img,
+  .box2 {
+    width: 100%;
+  }
+  .box2 {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+footer {
+  border-top: 1px solid #151d2e;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer-right {
+    padding-top: 30px;
+  }
+  .share {
+    justify-content: center;
+  }
+}

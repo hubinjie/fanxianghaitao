@@ -1,0 +1,183 @@
+.info1 {
+  padding-top: 80px;
+}
+.info1-text {
+  padding-right: 170px;
+}
+.info2 {
+  padding-top: 80px;
+}
+.info2-text {
+  padding-left: 170px;
+}
+.tag {
+  padding: 9px 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  border-radius: 4px;
+  background-color: #3e454d;
+}
+.video {
+  flex: 1;
+  padding: 14px;
+  margin-left: 50px;
+  border-radius: 9px;
+  border: 1px solid #323d54;
+  background-color: #171f30;
+}
+.video video {
+  width: 100%;
+  border-radius: 9px;
+}
+.functionality {
+  margin-right: 60px;
+}
+.flow-chart {
+  padding: 20px;
+  border-radius: 9px;
+  background-color: #333a49;
+}
+.flowchart {
+  background-color: #2d3848;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.flow-chart-1,
+.flow-chart-3 {
+  width: 40%;
+}
+.flow-chart-4,
+.flow-chart-5 {
+  width: 50%;
+}
+.flow-chart-4 {
+  margin-right: 10px;
+}
+.flow-chart-5 {
+  margin-left: 10px;
+}
+.flow-chart-2 {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.flowchart svg {
+  width: 100%;
+  max-width: 700px;
+}
+
+.node {
+  fill: #1f2a36;
+  stroke: #c0c0c0;
+  stroke-width: 2;
+  rx: 10;
+  ry: 10;
+}
+
+.node-text {
+  fill: #ffffff;
+  font-size: 27px;
+  font-weight: bold;
+  text-anchor: middle;
+  alignment-baseline: middle;
+}
+
+.start-end {
+  fill: var(--color-primary);
+}
+
+.arrow {
+  stroke: #c0c0c0;
+  stroke-width: 2;
+  marker-end: url(#arrowhead);
+}
+.box1 {
+  padding: 14px 50px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 6px;
+  background-color: #333a49;
+}
+.box1:last-child {
+  margin-right: 0;
+}
+.module-4-left {
+  padding-right: 200px;
+}
+.faq-box {
+  padding-bottom: 60px;
+  margin-bottom: 60px;
+  border-bottom: 1px solid #8291a9;
+}
+.faq-box:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+@media (max-width: 1024px) {
+  .info2-text {
+    padding-left: 70px;
+  }
+  .info1-text {
+    padding-right: 70px;
+  }
+  .module-4-left {
+    padding-right: 50px;
+  }
+  .faq-box {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .info1,
+  .info2 {
+    padding-top: 30px;
+  }
+  .info1-text,
+  .info2-text {
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .video {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  .functionality {
+    margin-right: 30px;
+  }
+  .flow-chart-2 {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .flow-chart-1,
+  .flow-chart-3 {
+    width: 100%;
+  }
+  .flow-chart-4,
+  .flow-chart-5 {
+    width: 100%;
+    margin: 0;
+  }
+  .flow-chart-5 {
+    padding-top: 20px;
+  }
+  .flow-chart-2 .flow-chart {
+    margin-top: 0;
+  }
+  .box1 {
+    padding: 10px 15px;
+    margin-right: 10px;
+  }
+  .module-4 {
+    flex-direction: column;
+  }
+  .module-4-left {
+    padding-right: 0;
+    padding-bottom: 30px;
+  }
+  .faq-box {
+    padding-bottom: 20px;
+  }
+}
